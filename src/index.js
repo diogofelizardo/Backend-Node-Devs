@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 const routes = require('./routes');
 
-mongoose.connect('mongodb+srv://<username>:<password>@cluster0-dythn.mongodb.net/test?retryWrites=true&w=majority',{
+mongoose.connect('mongodb+srv://useradmin:gLC30uRzHo2mjAUl@cluster0-dythn.mongodb.net/test?retryWrites=true&w=majority',{
         useNewUrlParser: true,
         useUnifiedTopology: true
 });
